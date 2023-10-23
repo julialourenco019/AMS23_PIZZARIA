@@ -1,0 +1,11 @@
+<partial name="_Carousel"/>
+@{
+    ViewData["Title"] = "Category";
+}
+<h1>@ViewData["Title"]</h1>
+<h4>Cadastrar</h4>
+<form action="api/values" method="POST">
+    Id: <input type="text" class="txt" name="txt_id"><br>
+    Nome: <input type="text" class="txt" name="txt_name"><br>
+    <input type="submit" class="btn" value="Cadastrar"><br>
+</form>

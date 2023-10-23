@@ -1,0 +1,35 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-image: linear-gradient(to right, #ff4a4a, #ff486e, #ff5091, #f55fb1, #e370cc, #d773d7, #c877e1, #b67beb, #ab73ef, #9f6cf2, #9065f7, #7e5ffb);
+  margin-bottom: 60px;
+}
+.header{
+  color:blueviolet;
+}
+.btn {
+background-color: rgb(255, 23, 23);
+}
+.navbar-brand {
+color: #fa6d6d;
+}
+.dropdown-menu{
+background-color:#ffbbe0
+}
+.img{
+  height: 900;
+  width: 650;
+}
